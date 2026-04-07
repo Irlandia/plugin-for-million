@@ -1,0 +1,30 @@
+# WordPress core files - не комітимо, ставимо через composer/WP-CLI
+wp-admin/
+wp-includes/
+
+# WordPress uploads
+wp-content/uploads/
+
+# WordPress config (містить паролі!)
+wp-config.php
+
+# WooCommerce logs і кеш
+wp-content/woocommerce_transient_cache_*
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# PHP
+*.log
+
+# OSPanel specific
+.htaccess
